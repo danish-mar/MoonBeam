@@ -1,0 +1,61 @@
+# Python development .gitignore file
+
+# Compiled files
+*.pyc
+*.egg-info
+__pycache__/
+
+# Build artifacts
+build/
+dist/
+.pytest_cache/
+*.log
+*.egg-info/
+coverage.xml
+*.coverage
+htmlcov/
+__pycache__/
+*.pyo
+
+# Testing
+*.pdb
+*.swp
+.DS_Store
+.ipynb_checkpoints
+
+
+# Virtual environments
+venv/
+.venv/
+env/
+myvenv/
+
+# Cache directories
+.cache/
+*.sqlite
+.pytest_cache/
+
+# Logs
+logs/
+
+# IDE files (adjust as needed)
+.idea/
+*.iml
+*.iws
+.vscode/
+.idea/workspace.xml
+
+# Other common files and folders
+*.temp
+*.tmp
+*.log
+.DS_Store
+npm-debug.log*
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+.ipython/
+
+# Conda environment files
+.conda/
+conda-meta/
